@@ -537,7 +537,7 @@ KEYRING_FILE  = DIRS["data"] / "keyring.json"   # tiny local cache only
 # ┌──────────────────────────────────────────────────────────────┐
 # │  BOT TOKEN  add karo.   ││
 # └──────────────────────────────────────────────────────────────┘
-BOT_TOKEN_HARDCODED = "BOT_TOKEN"   # ← ADD BOT TOKEN
+BOT_TOKEN_HARDCODED = "8808787588:AAFXYE2f7iLCVKn-pcpsR1KX2vUNvdVHPKo"   # ← ADD BOT TOKEN
 TOKEN = (
     os.environ.get("BOT_TOKEN")
     or os.environ.get("MAIN_BOT_TOKEN")
@@ -546,7 +546,7 @@ TOKEN = (
     or ""
 ).strip()
 try:
-    OWNER_ID = int(os.environ.get("OWNER_ID", "8253072984"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5659752731"))
 except (TypeError, ValueError):
     OWNER_ID = 0
 if not TOKEN:
@@ -564,11 +564,11 @@ try:
 except (TypeError, ValueError):
     KEEPALIVE_PORT = 10000
 
-BRAND       = "ѕιмяαη нoѕтιηg ＲΒOT"
+BRAND       = "𝒾𝓉𝒶𝒸𝒽𝒾 нoѕтιηg ＲΒOT"
 BRAND_VER   = "v2.1"
-BRAND_TAG   = f"{BRAND} {BRAND_VER}"
+BRAND_TAG   = "{ℐ𝓉𝒶𝒸𝒽𝒾} {𝒰𝒸𝒽𝒾𝒽𝒶}"
 SUPPORT_USR = "@nur7871"
-UPDATE_CH   = "https://t.me/+MXtA9ufCgok3Yjc1"
+UPDATE_CH   = "𝒽𝓉𝓉𝓅𝓈://𝓉.𝓂ℯ/𝒾𝓉𝒶𝒸𝒽𝒾𝒶𝓁𝒾𝓋ℯ321"
 FOOTER      = f"\n\n<blockquote>{BRAND_TAG}</blockquote>"
 
 # ─── glyphs (smart contextual symbols + emojis for the UI) ──────
