@@ -1,0 +1,58 @@
+ELEVATEX HOST V9 — OWNER / ADMIN QUICK COMMANDS
+
+ADMIN
+/admin
+/analytics
+/admins
+/addadmin USER_ID support|moderator|superadmin
+/deladmin USER_ID
+/finduser QUERY
+/allprojects
+/restartall
+
+WATCHDOG / RECOVERY
+/watchdog on|off
+/setwatchdog 40
+/watchdogstatus
+/schedulerestart PROJECT 6h
+/scheduleremove PROJECT
+/autostart PROJECT on|off
+/diagnose PROJECT
+
+STORAGE / LOGS
+/storage
+/setstorage USER_ID 500
+/logsize PROJECT
+/clearlogs PROJECT
+
+DEPENDENCIES
+/requirements PROJECT
+/piplist PROJECT
+/checkcompat PROJECT
+/repairenv PROJECT
+/install PACKAGE
+/installed
+
+BACKUPS
+/projectbackup PROJECT
+/backup
+/backups
+/restorebackup FILENAME.zip CONFIRM
+
+REDEEM CODES
+/createcode ...
+/codes
+/codeinfo CODE
+/disablecode CODE
+/deletecode CODE
+
+BRANDING / ACCESS
+/forcejoin on|off
+/setbrand NAME
+/setfooter TEXT
+
+PANEL VISIT REMINDER
+/panelreminder on|off
+/panelvisited
+
+The panel reminder defaults to every 72 hours and asks the owner to manually visit the panel.
